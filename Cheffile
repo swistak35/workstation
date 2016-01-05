@@ -2,4 +2,16 @@
 
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'baron', :path => 'vendor/cookbooks/baron'
+cookbook 'base',           :path => 'vendor/cookbooks/base'
+cookbook 'base_with_x',    :path => 'vendor/cookbooks/base_with_x'
+cookbook 'basic_dev',      :path => 'vendor/cookbooks/basic_dev'
+cookbook 'bluetooth',      :path => 'vendor/cookbooks/bluetooth'
+cookbook 'desktop_apps',   :path => 'vendor/cookbooks/desktop_apps'
+cookbook 'gnome_shell',    :path => 'vendor/cookbooks/gnome_shell'
+cookbook 'grub',           :path => 'vendor/cookbooks/grub'
+cookbook 'latex',          :path => 'vendor/cookbooks/latex'
+cookbook 'networkmanager', :path => 'vendor/cookbooks/networkmanager'
+cookbook 'vagrant',        :path => 'vendor/cookbooks/vagrant'
+cookbook 'virtualbox',     :path => 'vendor/cookbooks/virtualbox'
+
+cookbook 'baron',       :path => 'vendor/cookbooks/baron'

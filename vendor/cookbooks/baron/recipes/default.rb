@@ -40,6 +40,9 @@ end
 # enabled/disabled services
 # 	postgres, mysql, redshift, docker,
 # /etc/hosts
+# /etc/resolv.conf
+# sudoers
+#
 # android development, android studio
 # evolution?
 # fonts?

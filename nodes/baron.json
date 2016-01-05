@@ -1,0 +1,7 @@
+{
+  "run_list": [
+    "recipe[baron]"
+  ],
+  "home": "/home/swistak35"
+}
+

@@ -10,8 +10,8 @@ if [[ -z "$1" ]]; then
 fi
 
 if [ $OSTYPE = "linux-gnu" ]; then
-  if [ -x /usr/bin/apt-get ]; then
-    OS="ubuntu"
+  if [ -x /usr/bin/pacman ]; then
+    OS="archlinux"
   else
     log "did not care to support, exiting"
     exit 2
@@ -38,12 +38,12 @@ fi
 
 if [[ ! -x /usr/bin/chef-solo ]]; then
   log "getting Chef"
-  sudo gem install --no-rdoc --no-ri chef
+  # sudo gem install --no-rdoc --no-ri chef
 fi
 
 if [[ ! -x /usr/bin/librarian-chef ]]; then
   log "getting Librarian"
-  sudo gem install --no-rdoc --no-ri librarian
+  # sudo gem install --no-rdoc --no-ri librarian
 fi
 
 log "bundling cookbooks"

@@ -38,12 +38,12 @@ fi
 
 if [[ ! -x /usr/bin/chef-solo ]]; then
   log "getting Chef"
-  # sudo gem install --no-rdoc --no-ri chef
+  sudo gem install --no-rdoc --no-ri chef
 fi
 
 if [[ ! -x /usr/bin/librarian-chef ]]; then
   log "getting Librarian"
-  # sudo gem install --no-rdoc --no-ri librarian
+  sudo gem install --no-rdoc --no-ri librarian
 fi
 
 log "bundling cookbooks"

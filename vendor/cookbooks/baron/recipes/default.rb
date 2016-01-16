@@ -97,4 +97,8 @@ end
 # 	except projects
 # remove configs of programs I don't care
 # 	.adobe
+# 	# cups ghostscript gsfonts
+# 	# org.cups.cupsd service
+# 	# samsung-unified-driver
 
+# https://github.com/MarkRoddy/chef-gsettings

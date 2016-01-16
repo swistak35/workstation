@@ -14,4 +14,6 @@ cookbook 'networkmanager', :path => 'vendor/cookbooks/networkmanager'
 cookbook 'vagrant',        :path => 'vendor/cookbooks/vagrant'
 cookbook 'virtualbox',     :path => 'vendor/cookbooks/virtualbox'
 
+cookbook 'yaourt', :path => 'vendor/cookbooks/yaourt'
+
 cookbook 'baron',       :path => 'vendor/cookbooks/baron'

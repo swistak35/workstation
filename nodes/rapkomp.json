@@ -1,17 +1,6 @@
 {
   "run_list": [
-    "recipe[base]",
-    "recipe[base_with_x]",
-    "recipe[grub]",
-    "recipe[basic_dev]",
-    "recipe[bluetooth]",
-    "recipe[desktop_apps]",
-    "recipe[gnome_shell]",
-    "recipe[networkmanager]",
-    "recipe[vagrant]",
-    "recipe[virtualbox]",
-    "recipe[latex]",
-    "recipe[baron]"
+    "recipe[rlang]"
   ],
   "home": "/home/swistak35"
 }
